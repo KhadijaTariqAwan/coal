@@ -12,7 +12,7 @@ OUTPUT_FILES := $(patsubst %.asm,%,$(ASM_FILES))
 
 # NASM and LD flags
 NASM_FLAGS = -f elf64
-LD_FLAGS = -m elf_i386
+LD_FLAGS = -m elf_x86_64
 
 # Default target
 all: $(OUTPUT_FILES)
